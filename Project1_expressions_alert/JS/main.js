@@ -1,5 +1,5 @@
 
-        window.alert("Your mama");
+        window.alert("Alert! Alert!"); //window alert method
         /*var A = ("Lisa told Bart, \"Knock it off, Bart! Or I'll tell dad!\"<br>\"Eat my shorts!\" Bart responded.");*/
         
         /*document.write("\"Be who you are and say what you feel,"
@@ -9,11 +9,13 @@
         /*var B = "Concatenated" + " String"
         document.write(B)*/
 
-        var Family = "The Arezzinis", Dad = "Jeremiah", Mom = "Hermoine",
-            Daughter = "Penny", Son = "Zorro";
-        document.write(Son);
+        var Family = "The Arezzinis", Dad = "Jeremiah", Mom = "Hermoine", //Variables
+            Daughter = "Penny", Son = "Zorro";          //Variables
+        document.write(Son);                            //calling variable
         
-        document.write(3 + 3);
+        document.write(Dad + Son);                      //variables display
+        
+        document.write(5*4);                            //expression
 
     function My_First_Function() {                      //Defining a function and naming it
         var str = "This is the button text!";           //Defining a variable and giving it
