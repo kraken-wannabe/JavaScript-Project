@@ -1,4 +1,4 @@
-    function doMath() {
+	function doMath() {
 		var Addition = 4 + 4;
 		document.getElementById("Math").innerHTML = "4 + 4 = " + Addition;
     }
