@@ -9,3 +9,6 @@
         delete Animal.Sound;    //this removes sound variable from the dictionary before it displayed.
 		document.getElementById("Dictionary").innerHTML = Animal.Sound;
 	}
+    {
+    document.write("10" + 5);
+    }
